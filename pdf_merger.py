@@ -5,9 +5,11 @@ import os
 def print_helper():
     print("Usage: .\\pdf_merger [--help]")
     print("       .\\pdf_merger --list file1.pdf file2.pdf [file3.pdf ...] --output output.pdf")
+    print("\n")
     print("> Specify the files to merge with the full path, not just the filename.")
     print("> Use double or single quotes if full path contains empty spaces.")
     print("> Specify just a file name after --output option. If you specify more than one, only the first one will be used.")
+    print("\n")
     exit()
 
 # verify if --list and --output are both present, otherwise exit
